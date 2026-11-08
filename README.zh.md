@@ -49,6 +49,12 @@ npm pack
 dsh plugin --profile web add ./dsh-plugin-astryx-0.1.0.tgz
 ```
 
+仓库里已经提交了 `lib/`，所以也可以直接从 GitHub 安装，不需要先构建：
+
+```sh
+dsh plugin --profile web add github:markmini1234/astryx
+```
+
 本地开发时，构建完成后也可以用链接方式安装：
 
 ```sh

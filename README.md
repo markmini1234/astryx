@@ -49,6 +49,12 @@ Install it into a DSH Web profile:
 dsh plugin --profile web add ./dsh-plugin-astryx-0.1.0.tgz
 ```
 
+The committed `lib/` means the repository can also be installed directly, no build step:
+
+```sh
+dsh plugin --profile web add github:markmini1234/astryx
+```
+
 For local plugin development, a linked checkout also works after building:
 
 ```sh

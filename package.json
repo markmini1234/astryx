@@ -2,6 +2,14 @@
   "name": "dsh-plugin-astryx",
   "version": "0.1.0",
   "description": "Astryx design-system bridge for DeepSeek Harness: the Neutral theme and an agent-ready Astryx workflow skill",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markmini1234/astryx.git"
+  },
+  "homepage": "https://github.com/markmini1234/astryx#readme",
+  "bugs": {
+    "url": "https://github.com/markmini1234/astryx/issues"
+  },
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/types/index.d.ts",
