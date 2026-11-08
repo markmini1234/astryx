@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+# Bundled font and generated binary-ish artifacts stay untouched.
+assets/*.ttf binary
+*.png binary
+*.jpg binary
+*.webp binary

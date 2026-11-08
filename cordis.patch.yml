@@ -1,0 +1,7 @@
+# The package root carries both halves:
+# - the Host half registers the `astryx` skill;
+# - dsh.client serves ./client to the Web UI, which applies the Astryx Neutral
+#   token layer and self-hosted Figtree face.
+- insert:
+    - id: ui-astryx
+      name: dsh-plugin-astryx
